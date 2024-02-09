@@ -27,6 +27,11 @@ This will give you several URL paths:
 - `logout/` (named `logout`), for logging out
 - `authentication-test` (named `authentication-test`), for testing if credentials are valid, using HTTP Basic
 
+This gives a template tag library which you can use by first doing `{% load edrn_auth_tags %}`; it provides a single inclusion tag, `edrn_personal_links`, which generates the "personal links":
+
+- A "Hello, {{name}}" if you're logged in (or just "You're logged in" if your name's unknown), plus a "Log out" link
+- A "Log in" link if you're not logged in.
+
 There are several utilities you can import from `edrn.auth.views`, which are described below.
 
 ### 🔐 `view_or_basicauth`
