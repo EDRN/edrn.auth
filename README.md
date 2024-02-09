@@ -1,4 +1,4 @@
-# 🎨 EDRN Auth
+# 🔑 EDRN Auth
 
 This is a [Django](https://www.djangoproject.com) app (that is, [Python](https://www.python.org/) package) that provides authentication and authorization for the [portal for the Early Detection Research Network](https://edrn.nci.nih.gov/) and other applications. You use it with the [Wagtail CMS](https://www.wagtail.org/).
 
