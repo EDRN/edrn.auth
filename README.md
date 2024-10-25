@@ -5,7 +5,7 @@ This is a [Django](https://www.djangoproject.com) app (that is, [Python](https:/
 It currently works with:
 
 - Wagtail versions less than 6 but greater than 5
-- [Django](https://www.djangoproject.com) versions less than 5 but greater than 4
+- [Django](https://www.djangoproject.com) versions less than 6 but greater than 4
 - [Python](https://www.python.org/) versions 3.11 or greater (but probably less than 4)
 
 
@@ -58,6 +58,11 @@ The function `authentication_context` takes a Django `HTTPRequest` and based on 
 - `portal_login`: The URL to visit to present the portal-only login page
 
 This is intended to be used in `get_context` methods or views to provide handy links.
+
+
+## 🪙 Changes
+
+- 2.0.1 increased Django support from `< 5` to `< 6`
 
 
 ## 🥖 Translations
