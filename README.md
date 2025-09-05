@@ -4,7 +4,7 @@ This is a [Django](https://www.djangoproject.com) app (that is, [Python](https:/
 
 It currently works with:
 
-- Wagtail versions less than 6 but greater than 5
+- Wagtail versions less than 7 but greater than 5
 - [Django](https://www.djangoproject.com) versions less than 6 but greater than 4
 - [Python](https://www.python.org/) versions 3.11 or greater (but probably less than 4)
 
@@ -62,6 +62,7 @@ This is intended to be used in `get_context` methods or views to provide handy l
 
 ## 🪙 Changes
 
+- 2.0.2 increased Wagtail support from `< 6` to `< 7`
 - 2.0.1 increased Django support from `< 5` to `< 6`
 
 
