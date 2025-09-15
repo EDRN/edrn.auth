@@ -4,7 +4,7 @@ This is a [Django](https://www.djangoproject.com) app (that is, [Python](https:/
 
 It currently works with:
 
-- Wagtail versions less than 7 but greater than 5
+- Wagtail versions less than 8 but greater than 5
 - [Django](https://www.djangoproject.com) versions less than 6 but greater than 4
 - [Python](https://www.python.org/) versions 3.11 or greater (but probably less than 4)
 
