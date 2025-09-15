@@ -62,7 +62,8 @@ This is intended to be used in `get_context` methods or views to provide handy l
 
 ## 🪙 Changes
 
-- 2.1.0 supports Python 3.13 or newer; it also requires the Wagtail version to be `> 5`, `< 8`
+- 2.2.0 Requires Wagtail version to be `> 5`, `< 8`
+- 2.1.0 supports Python 3.13 or newer
 - 2.0.2 increased Wagtail support from `< 6` to `< 7`
 - 2.0.1 increased Django support from `< 5` to `< 6`
 
