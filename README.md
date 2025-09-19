@@ -6,7 +6,7 @@ It currently works with:
 
 - Wagtail versions less than 8 but greater than 5
 - [Django](https://www.djangoproject.com) versions less than 6 but greater than 4
-- [Python](https://www.python.org/) versions 3.11 or greater (but probably less than 4)
+- [Python](https://www.python.org/) versions 3.10 or greater (but probably less than 4)
 
 
 ## 💁 How to Use It
@@ -62,7 +62,8 @@ This is intended to be used in `get_context` methods or views to provide handy l
 
 ## 🪙 Changes
 
-- 2.2.0 Requires Wagtail version to be `> 5`, `< 8`
+- 2.2.1 actually works with Python 3.10 or newer
+- 2.2.0 requires Wagtail version to be `> 5`, `< 8`
 - 2.1.0 supports Python 3.13 or newer
 - 2.0.2 increased Wagtail support from `< 6` to `< 7`
 - 2.0.1 increased Django support from `< 5` to `< 6`
